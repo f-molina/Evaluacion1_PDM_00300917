@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="#FFF8"
+            android:padding="50dp"
+            android:textSize="25sp"
+            android:text="0"/>
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="#852014"
+            android:textSize="25sp"
+            android:padding="50dp"
+            android:text="0"/>
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="#45df"
+            android:textSize="25sp"
+            android:padding="50dp"
+            android:text="0"/>
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="#445"
+            android:textSize="25sp"
+            android:padding="50dp"
+            android:text="0"/>
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:textSize="25sp"
+            android:background="#fb45"
+            android:text="0"
+            android:padding="50dp"/>
+        <TextView
+            android:id="@+id/six"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:layout_height="150dp"
+            android:background="#f125"
+            android:padding="50dp"
+            android:text="0"/>
+        <TextView
+            android:id="@+id/seven"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="#f125"
+            android:padding="50dp"
+            android:textSize="25sp"
+            android:text="0"/>
+        <TextView
+            android:id="@+id/eight"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="#f165"
+            android:textSize="25sp"
+            android:padding="50dp"
+            android:text="0"/>
+        <TextView
+            android:id="@+id/nine"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:textSize="25sp"
+            android:background="#f128"
+            android:padding="50dp"
+            android:text="0"/>
+    </GridLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuario"/>
+        
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escriba el usuario"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escriba el email"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Enviar"/>
+
+    </LinearLayout>
+
+</LinearLayout>
